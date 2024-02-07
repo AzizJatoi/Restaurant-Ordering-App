@@ -51,6 +51,27 @@ body {
     font-size: 1rem;
     border: 1px solid #8B8B8B;
     border-radius: 50%;
-    padding: 0.7rem;
+    padding: 0.8rem;
     cursor: pointer;
+}
+
+
+/* Order Summary */
+.bold-heading-center {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.item-remove {
+    color: #8B8B8B;
+}
+.order-container {
+    display: flex;
+    align-items: center;
+    font-family: 1rem;
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none;
 }
